@@ -2,6 +2,8 @@
 
 Protótipo de interface para explorar acomodações, desenvolvido como exercício de estudo de React e Next.js. A página inicial permite filtrar a lista demonstrativa por cidade, estado, país ou nome do anúncio. Cada cartão abre uma página de detalhes com as imagens e informações do respectivo item.
 
+**Demonstração:** [estadias-prototipo.vercel.app](https://estadias-prototipo.vercel.app/)
+
 > Projeto educacional, sem vínculo com Airbnb ou outra plataforma de hospedagem. Não possui autenticação, disponibilidade real, reservas ou pagamentos. Anúncios, preços, avaliações e imagens são dados ilustrativos do material de estudo; as imagens são carregadas de `web.codans.com.br` e podem não estar disponíveis. A implementação foi desenvolvida nos estudos baseados no curso de Jamilton Damasceno (Codans); os dados e materiais de referência permanecem creditados aos respectivos autores.
 
 ## Funcionalidades
@@ -16,7 +18,7 @@ Protótipo de interface para explorar acomodações, desenvolvido como exercíci
 
 ## Tecnologias
 
-- Next.js 15 e React 19
+- Next.js 15.5.28 e React 19
 - TypeScript
 - Tailwind CSS
 - `next/image` para imagens remotas
@@ -41,3 +43,5 @@ Abra [http://localhost:3000](http://localhost:3000).
 - `src/app/globals.css` e `src/app/layout.tsx`: estilos e estrutura global.
 
 Desenvolvido por **Juliano Roso** como projeto de estudo. O protótipo não deve ser usado para anunciar imóveis ou aceitar reservas reais.
+
+
