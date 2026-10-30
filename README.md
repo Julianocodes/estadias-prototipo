@@ -34,9 +34,10 @@ Abra [http://localhost:3000](http://localhost:3000).
 
 ## Estrutura
 
-- `src/app`: páginas, rotas e estilos globais.
-- `src/data/acomodacoes.ts`: conjunto de anúncios demonstrativos.
-- `src/components`: componentes de interface reutilizáveis.
-- `src/widgets`: busca, cabeçalho, listagem e rodapé.
+- `src/app/page.tsx`: busca e listagem filtrada.
+- `src/app/[id]/page.tsx`: detalhes do anúncio selecionado.
+- `src/app/data.ts`: conjunto reduzido de anúncios demonstrativos.
+- `src/app/components.tsx`: cabeçalho, cartões e rodapé reutilizáveis.
+- `src/app/globals.css` e `src/app/layout.tsx`: estilos e estrutura global.
 
 Desenvolvido por **Juliano Roso** como projeto de estudo. O protótipo não deve ser usado para anunciar imóveis ou aceitar reservas reais.
